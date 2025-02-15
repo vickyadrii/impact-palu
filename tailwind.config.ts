@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "ip-gray": {
+          300: "#F3F3F3",
+          400: "#A6A3B6",
+        },
       },
     },
   },
