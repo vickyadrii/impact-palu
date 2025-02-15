@@ -2,8 +2,6 @@ import { navLists } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
-console.log("fsdfds");
-
 export const Navbar = () => {
   return (
     <nav className="bg-white border-b border-b-ip-gray-300">
