@@ -11,7 +11,7 @@ const HeroSection = () => {
           </h1>
           <Image
             src="/assets/vectors/line.svg"
-            alt="hero section's line"
+            alt="line"
             width={135}
             height={71}
             className="md:w-[135px] w-20 absolute md:right-56 right-4 top-1/2 -translate-y-1/2 -z-10 md:block hidden"
