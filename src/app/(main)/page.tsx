@@ -1,5 +1,5 @@
 import Home from "@/features/home";
 
-export default function HomePage() {
+export default function RootPage() {
   return <Home />;
 }

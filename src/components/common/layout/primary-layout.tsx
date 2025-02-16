@@ -6,10 +6,10 @@ type Props = {
 
 const PrimaryLayout = ({ children }: Props) => {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="mt-4">{children}</div>
-    </div>
+      <div className="pt-4">{children}</div>
+    </>
   );
 };
 
