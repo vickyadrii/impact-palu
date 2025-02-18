@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-ip-gray-200 border-b border-b-ip-gray-300">
+    <nav className="bg-white border-b border-b-ip-gray-300">
       <div className="container mx-auto p-5 flex items-center justify-between">
         <Link href="/">
           <Image

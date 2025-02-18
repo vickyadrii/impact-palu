@@ -16,6 +16,7 @@ export default {
         foreground: "hsl(var(--foreground))",
         "ip-gray": {
           "100": "#DFDFDF",
+          "150": "#EBE9E9",
           "200": "#FAFBFF",
           "300": "#F3F3F3",
           "400": "#A6A3B6",
@@ -23,6 +24,7 @@ export default {
           "600": "#73717E",
         },
         "ip-primary": {
+          "400": "#57CDE2",
           "500": "#046F7D",
           "600": "#0A5661",
           "800": "#04363D",
