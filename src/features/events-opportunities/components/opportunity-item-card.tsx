@@ -16,7 +16,7 @@ const OpportunityItemCard = ({ opportunity }: Props) => {
           alt={opportunity.title}
           width={1000}
           height={1000}
-          className="rounded-t-xl"
+          className="rounded-t-xl lg:h-[324px] h-[240px] object-cover"
         />
         <div className="absolute top-0 p-5">
           <Badge variant="upcoming" className="capitalize">

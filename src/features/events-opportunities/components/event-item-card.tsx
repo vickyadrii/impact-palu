@@ -12,7 +12,13 @@ const EventItemCard = ({ event }: Props) => {
   return (
     <Card className="bg-white">
       <div>
-        <Image src={event.thumbnail_url} alt={event.title} width={1000} height={1000} className="rounded-t-xl" />
+        <Image
+          src={event.thumbnail_url}
+          alt={event.title}
+          width={1000}
+          height={700}
+          className="rounded-t-xl lg:h-[324px] h-[240px] object-cover"
+        />
       </div>
       <CardHeader className="border-b p-0 mb-3 mx-4 py-3">
         <Badge variant={event.status} className="capitalize">
