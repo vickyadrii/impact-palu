@@ -15,7 +15,7 @@ const ProgramTitle = () => {
           className="absolute right-0"
         />
       </div>
-      <p className="text-ip-gray-600 md:text-base text-sm">
+      <p className="max-w-3xl mx-auto text-ip-gray-600 md:text-base text-sm">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ut? Iure et nemo totam, incidunt fugit tempora
         necessitatibus distinctio nostrum?
       </p>

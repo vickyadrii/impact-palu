@@ -15,7 +15,7 @@ const TitleSection = () => {
           className="absolute right-0"
         />
       </div>
-      <p className="text-ip-gray-600 md:text-base text-sm">
+      <p className="max-w-3xl mx-auto text-ip-gray-600 md:text-base text-sm">
         Our Events & Opportunities platform serves as a dynamic hub for social entrepreneurs, investors, and ecosystem
         enablers, facilitating collaboration, knowledge exchange, and business development.
       </p>
