@@ -36,6 +36,9 @@ const ContactForm = () => {
       title: "Success!",
       description: "Message sent successfully!",
     });
+    form.resetField("name");
+    form.resetField("email");
+    form.resetField("message");
   }
 
   return (
