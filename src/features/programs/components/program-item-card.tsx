@@ -11,14 +11,16 @@ const ProgramItemCard = ({ program }: Props) => {
     <Card key={program.id} className={`relative space-y-4 ${program.id === 1 && "bg-ip-primary-800"}`}>
       <CardHeader>
         <div className="bg-ip-primary-400 w-fit p-3 rounded-lg">
-          <Image src={program.icon} alt={program.title} width={24} height={24} />
+          <Image src={program.icon} alt={program.title} width={24} height={24} className="sm:w-6 sm:h-6 w-4 h-4" />
         </div>
       </CardHeader>
-      <CardContent className="space-y-3">
-        <CardTitle className={`md:text-xl text-lg font-semibold ${program.id === 1 && "text-white"}`}>
+      <CardContent className="sm:space-y-3 space-y-2">
+        <CardTitle className={`sm:text-xl text-base font-semibold ${program.id === 1 && "text-white"}`}>
           {program.title}
         </CardTitle>
-        <CardDescription className={`${program.id === 1 && "text-white"}`}>{program.description}</CardDescription>
+        <CardDescription className={`sm:text-base text-xs ${program.id === 1 && "text-white"}`}>
+          {program.description}
+        </CardDescription>
       </CardContent>
 
       <Image

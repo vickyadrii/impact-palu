@@ -13,10 +13,10 @@ const PortfolioItemCard = ({ portfolio }: Props) => {
         <Image src={portfolio.logo} alt={portfolio.title} width={96} height={96} />
       </CardHeader>
       <CardContent className="space-y-4">
-        <CardDescription>{portfolio.description}</CardDescription>
+        <CardDescription className="md:text-base text-sm">{portfolio.description}</CardDescription>
       </CardContent>
 
-      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-5 px-5">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-5 md:pb-0 pb-5 px-5">
         {portfolio.images.map((data, index) => (
           <div
             key={index}

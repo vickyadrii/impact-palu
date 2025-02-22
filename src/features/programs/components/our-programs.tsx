@@ -15,16 +15,15 @@ const OurPrograms = () => {
         alt="vector 1"
         width={62}
         height={31}
-        className="md:w-[62px] w-10 absolute top-0 md:-left-12 left-0 -z-30"
+        className="md:w-[62px] w-10 absolute md:top-0 -top-12 md:-left-12 -left-10 -z-30"
       />
       <Image
         src="/assets/vectors/vector4.svg"
         alt="vector 4"
         width={62}
         height={31}
-        className="md:w-[62px] w-10 absolute top-2 md:right-0 right-0 z-30"
+        className="md:w-[62px] w-10 absolute md:top-0 -top-4 right-0 -z-30"
       />
-
       <Image
         src="/assets/vectors/vector5.svg"
         alt="vector 5"

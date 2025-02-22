@@ -28,7 +28,9 @@ export const Navbar = () => {
           ))}
         </ul>
 
-        <Button>Contact Us</Button>
+        <Button asChild>
+          <Link href="/contact">Contact Us</Link>
+        </Button>
       </div>
     </nav>
   );
