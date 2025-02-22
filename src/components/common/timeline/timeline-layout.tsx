@@ -11,7 +11,6 @@ interface TimelineLayoutProps {
   iconColor?: "primary" | "secondary" | "muted" | "accent";
   customIcon?: React.ReactNode;
   animate?: boolean;
-  connectorColor?: "primary" | "secondary" | "muted" | "accent";
   className?: string;
 }
 
@@ -21,7 +20,6 @@ export const TimelineLayout = ({
   iconColor,
   customIcon,
   animate = true,
-  connectorColor,
   className,
 }: TimelineLayoutProps) => {
   return (
@@ -43,7 +41,6 @@ export const TimelineLayout = ({
             description={item.description}
             icon={typeof item.icon === "function" ? item.icon() : item.icon || customIcon}
             iconColor={item.color || iconColor}
-            connectorColor={item.color || connectorColor}
             showConnector={index !== items.length - 1}
           />
         </motion.div>

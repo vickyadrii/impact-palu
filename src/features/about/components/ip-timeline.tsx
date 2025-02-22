@@ -31,7 +31,7 @@ const IpTimeline = () => {
         alt="vector 5"
         width={62}
         height={31}
-        className="md:w-[62px] w-10 absolute right-6 bottom-7 md:block hidden right-0"
+        className="md:w-[62px] w-10 absolute right-6 bottom-7 md:block hidden"
       />
     </div>
   );
