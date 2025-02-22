@@ -1,5 +1,6 @@
 import AboutUs from "./components/about-us";
 import IpTimeline from "./components/ip-timeline";
+import OurTeam from "./components/our-team";
 import WeExist from "./components/we-exist";
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
       <AboutUs />
       <WeExist />
       <IpTimeline />
+      <OurTeam />
     </div>
   );
 };

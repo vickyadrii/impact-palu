@@ -1,5 +1,6 @@
 import { TimelineElement } from "@/components/common/timeline/types";
 import Image from "next/image";
+import { Team } from "./types";
 
 export const timelineData: TimelineElement[] = [
   {
@@ -46,5 +47,43 @@ export const timelineData: TimelineElement[] = [
       "Impact Palu’s foundational vision began during the co-founder’s participation in the Young Southeast Asian Leaders Initiative (YSEALI) Academic Fellowship Program at Brown University. Collaborating with international peers, the co-founder engaged in workshops on social entrepreneurship and economic development, sparking the blueprint for Impact Palu’s community-driven model.",
     status: "completed",
     icon: <Image src="/assets/icons/ic_2019.svg" alt="ic_2019" width={32} height={32} />,
+  },
+];
+
+export const teams: Team[] = [
+  {
+    id: 1,
+    photo_url: "/assets/images/teams/aulia-rahman.webp",
+    name: "Aulia Rahman",
+    title: "Co-Founder",
+    bg_color: "#DACFE7",
+  },
+  {
+    id: 2,
+    photo_url: "/assets/images/teams/aulia-rahman.webp",
+    name: "Fikri Aswan",
+    title: "Advisor",
+    bg_color: "#E9DCBA",
+  },
+  {
+    id: 3,
+    photo_url: "/assets/images/teams/aulia-rahman.webp",
+    name: "Sony Eko Yanuar",
+    title: "Head of Programs",
+    bg_color: "#D2E3E6",
+  },
+  {
+    id: 4,
+    photo_url: "/assets/images/teams/aulia-rahman.webp",
+    name: "Nawir A Lawanda",
+    title: "Research Associate",
+    bg_color: "#E9DCBA",
+  },
+  {
+    id: 5,
+    photo_url: "/assets/images/teams/aulia-rahman.webp",
+    name: "Aisyah Putri",
+    title: "Research Associate",
+    bg_color: "#DACFE7",
   },
 ];

@@ -5,7 +5,7 @@ import IpTimelineTitle from "./ip-timeline-title";
 
 const IpTimeline = () => {
   return (
-    <div className="relative md:bg-ip-gray-200 md:px-12 md:py-20 py-5 md:rounded-3xl rounded-xl">
+    <div className="relative md:bg-ip-gray-200 md:px-12 md:py-20 py-5 md:rounded-3xl rounded-xl my-10">
       <div>
         <IpTimelineTitle />
         <TimelineLayout items={timelineData} size="md" animate={true} />
