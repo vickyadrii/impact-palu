@@ -5,7 +5,7 @@ import ContactUs from "./components/contact-us";
 
 const Contact = () => {
   return (
-    <div className="relative container mx-auto px-5 lg:py-24 md:py-16 py-5 lg:space-y-20">
+    <div className="relative container mx-auto px-5 md:py-16 py-5 lg:space-y-20">
       <div className="flex lg:flex-row flex-col justify-between lg:gap-20 gap-8">
         <ContactTitle />
         <ContactForm />
