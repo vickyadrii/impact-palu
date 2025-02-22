@@ -8,7 +8,7 @@ const PrimaryLayout = ({ children }: Props) => {
   return (
     <>
       <Navbar />
-      <div className="pt-28">{children}</div>
+      <div className="pt-24">{children}</div>
     </>
   );
 };
