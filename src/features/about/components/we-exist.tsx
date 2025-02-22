@@ -3,7 +3,7 @@ import BorderImage from "@/components/ui/border-image";
 
 const WeExist = () => {
   return (
-    <div className="relative md:my-24 my-20">
+    <div id="we-exist" className="relative md:my-24 my-20">
       <div className="flex lg:flex-row flex-col items-center justify-between gap-12">
         <div className="relative basis-1/2">
           <BorderImage>

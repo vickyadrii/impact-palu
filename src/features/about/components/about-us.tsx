@@ -19,7 +19,7 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <Link href="/about">
+          <Link href="#we-exist">
             <Button
               variant="outline"
               size="icon"

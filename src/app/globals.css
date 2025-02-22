@@ -8,6 +8,9 @@
     --foreground: #ededed;
   }
 } */
+* {
+  scroll-behavior: smooth;
+}
 
 body {
   color: #2d2f3b;

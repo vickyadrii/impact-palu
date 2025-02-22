@@ -26,7 +26,7 @@ const Contact = () => {
         alt="vector 4"
         width={62}
         height={31}
-        className="md:w-[62px] w-10 absolute lg:-top-20 -top-8 right-0 -z-30"
+        className="md:w-[62px] w-10 absolute lg:-top-20 -top-8 md:-right-10 right-0 -z-30"
       />
     </div>
   );

@@ -1,11 +1,16 @@
-import { Button } from "@/components/ui/button";
-import { navLists } from "@/constants";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+import { navLists } from "@/constants";
+import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
+  const pathname = usePathname();
   return (
-    <nav className="bg-white border-b border-b-ip-gray-300 fixed w-full z-50">
+    <header className="bg-white border-b border-b-ip-gray-300 fixed w-full z-50">
       <div className="container mx-auto p-5 flex items-center justify-between">
         <Link href="/">
           <Image
@@ -17,22 +22,23 @@ export const Navbar = () => {
           />
         </Link>
 
-        <ul className="flex items-center gap-6">
+        <nav className="flex items-center gap-6">
           {navLists.map((navlist) => (
-            <li
+            <Link
               key={navlist.href}
-              className={` ${navlist.href !== "/events-opportunities" && "border-r pr-6"} text-ip-gray-400 hover:text-ip-gray-400/90 font-medium text-sm`}
+              href={navlist.href}
+              className={` ${navlist.href !== "/events-opportunities" && "border-r pr-6"} ${pathname.includes(navlist.href) ? "text-ip-primary-500" : "text-ip-gray-400"} hover:text-ip-gray-400/90 font-medium text-sm`}
             >
-              <Link href={navlist.href}>{navlist.name}</Link>
-            </li>
+              {navlist.name}
+            </Link>
           ))}
-        </ul>
+        </nav>
 
         <Button asChild>
           <Link href="/contact">Contact Us</Link>
         </Button>
       </div>
-    </nav>
+    </header>
   );
 };
 
