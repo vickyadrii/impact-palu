@@ -1,7 +1,8 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
 import { toast } from "@/components/hooks/use-toast";
@@ -21,6 +22,7 @@ const FormSchema = z.object({
 });
 
 const ContactForm = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -30,15 +32,35 @@ const ContactForm = () => {
     },
   });
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
-    console.log("data", data);
-    toast({
-      title: "Success!",
-      description: "Message sent successfully!",
-    });
-    form.resetField("name");
-    form.resetField("email");
-    form.resetField("message");
+  async function onSubmit(data: z.infer<typeof FormSchema>) {
+    try {
+      setIsLoading(true);
+
+      const res = await fetch("http://localhost:3000/api/send", {
+        method: "POST",
+        body: JSON.stringify(data),
+      });
+      const resData = await res.json();
+      console.log({ resData });
+      if (resData.statusCode === 403) {
+        throw new Error("validation_error");
+      }
+      toast({
+        title: "Success!",
+        description: "Message sent successfully!",
+      });
+      form.resetField("name");
+      form.resetField("email");
+      form.resetField("message");
+    } catch (error) {
+      console.log(error);
+      toast({
+        title: "Error!",
+        description: "Error while sending message!",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   return (
@@ -87,8 +109,8 @@ const ContactForm = () => {
           )}
         />
         <div className="flex justify-end">
-          <Button type="submit" className="rounded-lg">
-            Submit
+          <Button disabled={isLoading} type="submit" className="rounded-lg">
+            {isLoading ? "Loading..." : "Submit"}
           </Button>
         </div>
       </form>
