@@ -36,7 +36,7 @@ const OurTeam = () => {
           ))}
         </CarouselContent>
         <CarouselPrevious />
-        <CarouselNext />
+        <CarouselNext className="md:block hidden" />
       </Carousel>
     </div>
   );

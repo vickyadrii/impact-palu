@@ -19,7 +19,7 @@ const MobileNav = () => {
         <SheetContent>
           <SheetHeader>
             <SheetTitle></SheetTitle>
-            <nav className="md:hidden flex flex-col gap-2">
+            <nav className="md:hidden flex flex-col items-start gap-2">
               <SheetClose asChild>
                 <Link
                   href="/"
