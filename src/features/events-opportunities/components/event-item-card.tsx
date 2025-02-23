@@ -3,6 +3,7 @@ import { Event } from "../types";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { convertToIDR } from "@/lib/utils";
+import Link from "next/link";
 
 type Props = {
   event: Event;
@@ -21,9 +22,16 @@ const EventItemCard = ({ event }: Props) => {
         />
       </div>
       <CardHeader className="border-b p-0 mb-3 mx-4 py-3">
-        <Badge variant={event.status} className="capitalize">
-          {event.status}
-        </Badge>
+        <div className="flex items-center gap-2">
+          <Badge variant={event.status} className="capitalize">
+            {event.status}
+          </Badge>
+          {event.status !== "passed" && (
+            <Badge variant="outline" className="capitalize">
+              <Link href="/">Register here</Link>
+            </Badge>
+          )}
+        </div>
       </CardHeader>
       <CardContent className="px-4 space-y-8">
         <div className="space-y-4">

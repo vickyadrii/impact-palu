@@ -6,6 +6,7 @@ export type Event = {
   location: string;
   date: string;
   price: number;
+  link_registration: string;
 };
 
 export type Opportunity = {
@@ -13,5 +14,7 @@ export type Opportunity = {
   thumbnail_url: string;
   type: string;
   title: string;
+  description: string[];
   location: string;
+  link_registration: string;
 };

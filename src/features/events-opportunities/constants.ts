@@ -9,6 +9,7 @@ export const events: Event[] = [
     location: "The Gade Tower, Jln. Cempedak, Palu Barat",
     date: "Kamis, 14 Oktober 2024",
     price: 99000,
+    link_registration: "https://google.com",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const events: Event[] = [
     location: "The Gade Tower, Jln. Cempedak, Palu Barat",
     date: "Kamis, 14 Oktober 2024",
     price: 0,
+    link_registration: "https://google.com",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const events: Event[] = [
     location: "The Gade Tower, Jln. Cempedak, Palu Barat",
     date: "Kamis, 14 Oktober 2024",
     price: 99000,
+    link_registration: "https://google.com",
   },
 ];
 
@@ -35,21 +38,39 @@ export const opportunities: Opportunity[] = [
     id: 1,
     thumbnail_url: "/assets/images/opportunities/op1.webp",
     title: "Menjadi Volunteer Hari Kemerdekaan Indonesia, panitia Public Relation",
+    description: [
+      "Write and edit copy for various marketing materials, including website content, social media posts, email newsletters, Help Center articles, and other internal and ad-hoc projects.",
+      "Collaborate with cross-functional teams, including Product and Market Managers, to ensure the copy aligns with their needs.",
+      "Actively participate in content team projects, including location services, general content audits, wiki page management, and content database optimization.",
+    ],
     type: "volunteer",
     location: "Palu, Sulawesi Tengah",
+    link_registration: "https://google.com",
   },
   {
     id: 2,
     thumbnail_url: "/assets/images/opportunities/op1.webp",
-    title: "Menjadi Volunteer Hari Kemerdekaan Indonesia, panitia Public Relation",
+    title: "Menjadi CPNS Hari Kemerdekaan Indonesia, panitia Public Relation",
+    description: [
+      "Write and edit copy for various marketing materials, including website content, social media posts, email newsletters, Help Center articles, and other internal and ad-hoc projects.",
+      "Collaborate with cross-functional teams, including Product and Market Managers, to ensure the copy aligns with their needs.",
+      "Actively participate in content team projects, including location services, general content audits, wiki page management, and content database optimization.",
+    ],
     type: "volunteer",
     location: "Palu, Sulawesi Tengah",
+    link_registration: "https://google.com",
   },
   {
     id: 3,
     thumbnail_url: "/assets/images/opportunities/op1.webp",
-    title: "Menjadi Volunteer Hari Kemerdekaan Indonesia, panitia Public Relation",
+    title: "Menjadi TKP Hari Kemerdekaan Indonesia, panitia Public Relation",
+    description: [
+      "Write and edit copy for various marketing materials, including website content, social media posts, email newsletters, Help Center articles, and other internal and ad-hoc projects.",
+      "Collaborate with cross-functional teams, including Product and Market Managers, to ensure the copy aligns with their needs.",
+      "Actively participate in content team projects, including location services, general content audits, wiki page management, and content database optimization.",
+    ],
     type: "volunteer",
     location: "Palu, Sulawesi Tengah",
+    link_registration: "https://google.com",
   },
 ];
