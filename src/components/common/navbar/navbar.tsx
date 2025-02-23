@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 
 import { navLists } from "@/constants";
 import { Button } from "@/components/ui/button";
+import MobileNav from "./mobile-nav";
 
 export const Navbar = () => {
   const pathname = usePathname();
@@ -18,25 +19,27 @@ export const Navbar = () => {
             alt="impact palu logo"
             width={94}
             height={53}
-            className="w-22 h-full"
+            className="md:w-22 w-16 h-full"
           />
         </Link>
 
-        <nav className="flex items-center gap-6">
+        <nav className="md:flex items-center hidden gap-6">
           {navLists.map((navlist) => (
             <Link
               key={navlist.href}
               href={navlist.href}
-              className={` ${navlist.href !== "/events-opportunities" && "border-r pr-6"} ${pathname.includes(navlist.href) ? "text-ip-primary-500" : "text-ip-gray-400"} hover:text-ip-gray-400/90 font-medium text-sm`}
+              className={` ${navlist.href !== "/events-opportunities" && "border-r pr-6"} ${pathname.includes(navlist.href) ? "text-ip-primary-500" : "text-ip-gray-400"} hover:text-ip-primary-500/90 font-medium text-sm`}
             >
               {navlist.name}
             </Link>
           ))}
         </nav>
 
-        <Button asChild>
+        <Button asChild className="md:flex hidden">
           <Link href="/contact">Contact Us</Link>
         </Button>
+
+        <MobileNav />
       </div>
     </header>
   );
