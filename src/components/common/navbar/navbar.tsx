@@ -19,7 +19,7 @@ export const Navbar = () => {
             alt="impact palu logo"
             width={94}
             height={53}
-            className="md:w-22 w-16 h-full"
+            className="md:w-20 w-16 h-full"
           />
         </Link>
 
