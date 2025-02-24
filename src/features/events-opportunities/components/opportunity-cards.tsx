@@ -1,7 +1,7 @@
 import { opportunities } from "../constants";
 import OpportunitiyItemCard from "./opportunity-item-card";
 
-const OpportunityCard = () => {
+const OpportunityCards = () => {
   return (
     <div className="space-y-6">
       <h3 className="font-semibold md:text-xl text-lg">OPPORTUNITIES</h3>
@@ -14,4 +14,4 @@ const OpportunityCard = () => {
   );
 };
 
-export default OpportunityCard;
+export default OpportunityCards;

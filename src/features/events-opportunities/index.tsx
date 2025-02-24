@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EventCards from "./components/event-cards";
-import OpportunityCard from "./components/opportunity-cards";
+// import OpportunityCards from "./components/opportunity-cards";
 import TitleSection from "./components/title-section";
 
 const EventsOpportunities = () => {
@@ -10,7 +10,7 @@ const EventsOpportunities = () => {
 
       <div className="space-y-12 mt-8">
         <EventCards />
-        <OpportunityCard />
+        {/* <OpportunityCards /> */}
       </div>
 
       {/* Vectors */}

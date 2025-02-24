@@ -18,7 +18,7 @@ const EventItemCard = ({ event }: Props) => {
           alt={event.title}
           width={1000}
           height={700}
-          className="rounded-t-xl lg:h-[324px] h-[240px] object-cover"
+          className="rounded-t-xl w-full lg:h-[324px] h-[240px] object-cover border-b border-b-ip-gray-200"
         />
       </div>
       <CardHeader className="border-b p-0 mb-3 mx-4 py-3">
