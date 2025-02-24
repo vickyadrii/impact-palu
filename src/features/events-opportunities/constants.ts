@@ -1,11 +1,12 @@
 import { Event, Opportunity } from "./types";
 
+// Data Events
 export const events: Event[] = [
   {
     id: 1,
     thumbnail_url: "/assets/images/events/event1.webp",
-    status: "upcoming",
-    title: "Circular Economy in Action #1. The Untapped Potential for Businesses in the Waste Managing the business.",
+    status: "upcoming", // upcoming | passed
+    title: "Testing",
     location: "The Gade Tower, Jln. Cempedak, Palu Barat",
     date: "Kamis, 14 Oktober 2024",
     price: 99000,
@@ -31,8 +32,19 @@ export const events: Event[] = [
     price: 99000,
     link_registration: "https://google.com",
   },
+  {
+    id: 4,
+    thumbnail_url: "/assets/images/events/event1.webp",
+    status: "passed",
+    title: "Circular Economy in Action #1. The Untapped Potential for Businesses in the Waste Managing the business.",
+    location: "The Gade Tower, Jln. Cempedak, Palu Barat",
+    date: "Kamis, 14 Oktober 2024",
+    price: 99000,
+    link_registration: "https://google.com",
+  },
 ];
 
+// Data Opportunities
 export const opportunities: Opportunity[] = [
   {
     id: 1,

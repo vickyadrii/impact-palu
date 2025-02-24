@@ -1,5 +1,6 @@
 import { Portfolio, Program } from "./types";
 
+// Data Programs
 export const programs: Program[] = [
   {
     id: 1,
@@ -31,6 +32,7 @@ export const programs: Program[] = [
   },
 ];
 
+// Data Portfolios
 export const portfolios: Portfolio[] = [
   {
     id: 1,

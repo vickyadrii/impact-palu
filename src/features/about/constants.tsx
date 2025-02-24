@@ -2,6 +2,7 @@ import { TimelineElement } from "@/components/common/timeline/types";
 import Image from "next/image";
 import { Team } from "./types";
 
+// Data Timeline
 export const timelineData: TimelineElement[] = [
   {
     id: 1,
@@ -50,6 +51,7 @@ export const timelineData: TimelineElement[] = [
   },
 ];
 
+// Team
 export const teams: Team[] = [
   {
     id: 1,
