@@ -16,8 +16,8 @@ const ProgramTitle = () => {
         />
       </div>
       <p className="max-w-3xl mx-auto text-ip-gray-600 md:text-base text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ut? Iure et nemo totam, incidunt fugit tempora
-        necessitatibus distinctio nostrum?
+        Our Programs provide tailored support, mentorship, and opportunities to help individuals and organizations grow,
+        innovate, and create a lasting impact.
       </p>
     </div>
   );

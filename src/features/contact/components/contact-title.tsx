@@ -16,8 +16,7 @@ const ContactTitle = () => {
         />
       </div>
       <p className="max-w-md text-ip-gray-600 md:text-base text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ut? Iure et nemo totam, incidunt fugit tempora
-        necessitatibus distinctio nostrum?
+        Get in touch with us for collaborations, inquiries, or support. We're here to help!
       </p>
     </div>
   );

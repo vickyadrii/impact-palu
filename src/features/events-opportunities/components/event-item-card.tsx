@@ -37,7 +37,10 @@ const EventItemCard = ({ event }: Props) => {
       </CardHeader>
       <CardContent className="px-4 space-y-8">
         <div className="space-y-4">
-          <h3 className="font-semibold md:text-base text-sm line-clamp-2">{event.title}</h3>
+          <div className="space-y-1">
+            <h3 className="font-semibold md:text-base text-sm line-clamp-2">{event.title}</h3>
+            <p className="text-ip-gray-600 md:text-sm text-xs line-clamp-2">{event.description}</p>
+          </div>
 
           <div className="space-y-1">
             <div className="flex items-center gap-2">

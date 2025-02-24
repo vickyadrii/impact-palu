@@ -3,6 +3,7 @@ export type Event = {
   thumbnail_url: string;
   status: "default" | "secondary" | "destructive" | "upcoming" | "passed" | "outline";
   title: string;
+  description: string;
   location: string;
   date: string;
   price: number;

@@ -16,8 +16,7 @@ const PortfolioTitle = () => {
         />
       </div>
       <p className="text-ip-gray-600 md:text-base text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ut? Iure et nemo totam, incidunt fugit tempora
-        necessitatibus distinctio nostrum?
+        We are committed to making a positive impact through various innovative programs in environmental management.
       </p>
     </div>
   );

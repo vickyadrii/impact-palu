@@ -16,8 +16,7 @@ const OurTeamTitle = () => {
         />
       </div>
       <p className="max-w-3xl mx-auto text-ip-gray-600 md:text-base text-sm">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed arcu sollicitudin, ultricies dolor a, lacinia
-        quam.
+        A dedicated team of professionals committed to driving impact and innovation.
       </p>
     </div>
   );

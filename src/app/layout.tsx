@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Impact Palu",
+  title: "Impact Palu - Sustaining Local Change",
   description: "Impact Palu is a social entrepreneurship incubator based in Palu.",
 };
 
