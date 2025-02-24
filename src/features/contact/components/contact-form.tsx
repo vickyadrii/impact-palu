@@ -36,7 +36,7 @@ const ContactForm = () => {
     try {
       setIsLoading(true);
 
-      const res = await fetch("http://localhost:3000/api/send", {
+      const res = await fetch("https://impactpalu.id/api/send", {
         method: "POST",
         body: JSON.stringify(data),
       });
