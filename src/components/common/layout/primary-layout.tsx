@@ -1,14 +1,21 @@
-import Navbar from "../navbar/navbar";
+"use client";
+
+import { usePathname } from "next/navigation";
+
+import Footer from "./footer";
+import { Navbar } from "./navbar";
 
 type Props = {
   children: React.ReactNode;
 };
 
 const PrimaryLayout = ({ children }: Props) => {
+  const pathname = usePathname();
   return (
     <>
       <Navbar />
-      <div className="pt-24">{children}</div>
+      <div className="pt-24 pb-8">{children}</div>
+      {pathname !== "/" && <Footer />}
     </>
   );
 };

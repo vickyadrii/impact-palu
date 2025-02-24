@@ -28,7 +28,9 @@ const EventItemCard = ({ event }: Props) => {
           </Badge>
           {event.status !== "passed" && (
             <Badge variant="outline" className="capitalize">
-              <Link href="/">Register here</Link>
+              <Link href="/" target="_blank">
+                Register here
+              </Link>
             </Badge>
           )}
         </div>
