@@ -56,8 +56,8 @@ export const footer: Footer = {
         is_location: false,
       },
       {
-        label: "hello@impactpalu.id",
-        value: "mailto:hello@impactpalu.id",
+        label: "impactpalu@gmail.com",
+        value: "mailto:impactpalu@gmail.com",
         is_location: false,
       },
       {
