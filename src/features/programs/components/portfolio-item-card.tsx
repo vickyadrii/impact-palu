@@ -10,13 +10,13 @@ const PortfolioItemCard = ({ portfolio }: Props) => {
   return (
     <Card className="relative border border-ip-primary-500 md:rounded-2xl">
       <CardHeader>
-        <Image src={portfolio.logo} alt={portfolio.title} width={96} height={96} />
+        <Image src={portfolio.logo} alt={portfolio.title} width={96} height={96} className="w-28 h-fit" />
       </CardHeader>
       <CardContent className="space-y-4">
         <CardDescription className="md:text-base text-sm">{portfolio.description}</CardDescription>
       </CardContent>
 
-      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-5 md:pb-0 pb-5 px-5">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-5 md:pb-0 pb-5 px-5 relative z-10">
         {portfolio.images.map((data, index) => (
           <div
             key={index}
@@ -38,7 +38,7 @@ const PortfolioItemCard = ({ portfolio }: Props) => {
         alt="background card"
         width={620}
         height={293}
-        className="w-full h-full absolute top-0 z-10"
+        className="w-full h-full absolute top-0 z-0"
       />
     </Card>
   );

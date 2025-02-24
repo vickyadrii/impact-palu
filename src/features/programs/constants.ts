@@ -34,7 +34,7 @@ export const programs: Program[] = [
 export const portfolios: Portfolio[] = [
   {
     id: 1,
-    logo: "/assets/images/impactpalu_logo.webp",
+    logo: "/assets/images/portfolios/rehijau/rehijau-logo.webp",
     title: "Rehijau",
     description:
       "Rehijau revolutionizes waste management by transforming traditional and informal waste banks, empowering local communities to establish their own waste banks, by providing 3 core services such as technical assistance, financing and an integrated waste management system.",
