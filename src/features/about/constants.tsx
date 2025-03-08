@@ -84,7 +84,7 @@ export const teams: Team[] = [
   {
     id: 5,
     photo_url: "/assets/images/teams/nawir.webp",
-    name: "Nawir A Lawanda",
+    name: "Nawir A Lamanda",
     title: "Research Associate",
     bg_color: "#DACFE7",
   },
