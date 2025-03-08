@@ -47,3 +47,22 @@ export const portfolios: Portfolio[] = [
     ],
   },
 ];
+
+export const partners: string[] = [
+  "/assets/images/partners/hannah.webp",
+  "/assets/images/partners/selling.webp",
+  "/assets/images/partners/grobag.webp",
+  "/assets/images/partners/kampung-course.webp",
+  "/assets/images/partners/plus.webp",
+  "/assets/images/partners/techinasia.webp",
+  "/assets/images/partners/wise-steps.webp",
+  "/assets/images/partners/dekopin.webp",
+  "/assets/images/partners/demi-bumi-palu.webp",
+  "/assets/images/partners/gamma-waste.webp",
+  "/assets/images/partners/nobalu.webp",
+  "/assets/images/partners/rdl.webp",
+  "/assets/images/partners/satutampa.webp",
+  "/assets/images/partners/untld.webp",
+  "/assets/images/partners/ygap.webp",
+  "/assets/images/partners/central-borneo-guide.webp",
+];
