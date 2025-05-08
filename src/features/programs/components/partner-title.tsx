@@ -16,7 +16,7 @@ const PartnerTitle = () => {
         />
       </div>
       <p className="max-w-3xl mx-auto text-ip-gray-600 md:text-base text-sm">
-        Here are our partners who have helped us in our journey to make a positive impact on the environment.
+        Here are our partners who have helped us in our journey.
       </p>
     </div>
   );
