@@ -60,9 +60,9 @@ export const events: Event[] = [
   {
     id: 6,
     thumbnail_url: "/assets/images/events/event6.webp",
-    status: "upcoming",
+    status: "passed",
     title: "Podcast Episode #1",
-    description: "Understanding informality in recycling sectors in Palu.",
+    description: "Understanding informal recycling sectors in Palu, with our research assistant",
     location: "Spotify",
     date: "May 2025",
     price: 0,
