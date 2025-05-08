@@ -57,6 +57,17 @@ export const events: Event[] = [
     price: 0,
     link_registration: "https://google.com",
   },
+  {
+    id: 6,
+    thumbnail_url: "/assets/images/events/event4.webp",
+    status: "upcoming",
+    title: "Podcast Episode #1",
+    description: "Understanding informality in recycling sectors in Palu.",
+    location: "Spotify",
+    date: "May 2025",
+    price: 0,
+    link_registration: "https://google.com",
+  },
 ];
 
 // Data Opportunities
