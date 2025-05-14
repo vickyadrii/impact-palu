@@ -71,7 +71,7 @@ export const events: Event[] = [
   {
     id: 7,
     thumbnail_url: "/assets/images/events/event7.webp",
-    status: "passed",
+    status: "upcoming",
     title: "Impact Talk #1",
     description: "Bridging the funding gap: tantangan bisnis daur ulang informal di Indonesia",
     location: "Google Meeting",
