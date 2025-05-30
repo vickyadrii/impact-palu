@@ -69,10 +69,10 @@ export const teams: Team[] = [
   },
   {
     id: 3,
-    photo_url: "/assets/images/teams/abdus.webp",
-    name: "Abdus Amiruddin",
-    title: "Head of Business Development",
-    bg_color: "#D2E3E6",
+    photo_url: "/assets/images/teams/aisyah.webp",
+    name: "Aisyah Putri",
+    title: "Research Associate",
+    bg_color: "#E9DCBA",
   },
   {
     id: 4,
@@ -90,9 +90,9 @@ export const teams: Team[] = [
   },
   {
     id: 6,
-    photo_url: "/assets/images/teams/aisyah.webp",
-    name: "Aisyah Putri",
-    title: "Research Associate",
-    bg_color: "#E9DCBA",
+    photo_url: "/assets/images/teams/abdus.webp",
+    name: "Abdus Amiruddin",
+    title: "Head of Business Development",
+    bg_color: "#D2E3E6",
   },
 ];
