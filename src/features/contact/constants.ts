@@ -5,7 +5,7 @@ export const contacts: Contact[] = [
     id: 1,
     icon: "/assets/icons/ic_email.svg",
     label: "Email",
-    value: "impactpalu@gmail.com",
+    value: "hello@impactpalu.id",
   },
   {
     id: 2,
