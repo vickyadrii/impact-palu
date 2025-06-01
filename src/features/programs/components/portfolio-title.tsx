@@ -16,7 +16,10 @@ const PortfolioTitle = () => {
         />
       </div>
       <p className="text-ip-gray-600 md:text-base text-sm">
-        We are committed to making a positive impact through various innovative programs in environmental management.
+        We are committed to creating lasting environmental impact across Southeast Asia, with a special focus on Eastern
+        Indonesia, by developing a dynamic portfolio of innovative ventures and programs. Our initiatives span
+        sustainable resource management, circular economy solutions, and scalable environmental technologies—delivering
+        measurable impact and strong growth potential for our partners and investors.
       </p>
     </div>
   );
