@@ -45,6 +45,10 @@ export const footer: Footer = {
         label: "Youtube",
         value: "https://www.youtube.com/@impactpalu6869",
       },
+      {
+        label: "Career",
+        value: "https://airtable.com/app0dQmwJsNdO2ZAy/shrGgwNB3iUreK9tz/tblhhKC93TnCCUs2r",
+      },
     ],
   },
   contact: {
