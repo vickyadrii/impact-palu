@@ -6,10 +6,10 @@ import { Team } from "./types";
 export const timelineData: TimelineElement[] = [
   {
     id: 1,
-    title: "Evidence-based Intervention for Funding Gap",
+    title: "Bridging the Waste Bank's Funding Gap",
     date: "2024",
     description:
-      "One of our ventures, Rehijau, through its Waste Bank Network Program were selected to represent Indonesia in the Indo-Pacific Plastics Innovation Network (IPPIN) Incubator in 2024, a prestigious program sponsored by the Australian government under Australia's National Science Agency (CSIRO).",
+      "One of our ventures, Rehijau, through its Waste Bank Network Program were selected to represent Indonesia in the Indo-Pacific Plastics Innovation Network (IPPIN) Incubator batch 2024, a prestigious program sponsored by the Australian government under Australia's National Science Agency (CSIRO).",
     status: "pending",
     icon: <Image src="/assets/icons/ic_2024.svg" alt="ic_2024" width={32} height={32} />,
   },
