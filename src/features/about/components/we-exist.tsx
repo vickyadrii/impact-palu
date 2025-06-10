@@ -28,10 +28,14 @@ const WeExist = () => {
         <div className="basis-1/2 md:space-y-3 space-y-2">
           <h3 className="md:text-2xl text-xl font-semibold text-ip-primary-500">Why are We Exist?</h3>
           <p className="text-ip-gray-600 md:text-base text-sm">
-            At Impact Palu, we believe that social enterprises will develop a sustainable solution for social and
-            environmental problems in Palu and beyond. By supporting aspiring social entrepreneurs with capacity
-            building programs and connecting them with pertinent stakeholders, it will achieve a sustainable and greater
-            impact.
+            At Impact Palu, we position ourselves as architects of a thriving social enterprise ecosystem—one that
+            empowers changemakers to tackle social and environmental challenges and radiate impact far beyond our city’s
+            borders. Through bespoke consultancy services, we guide ventures from concept to scale; via our
+            venture-building arm, we co-create and incubate innovative enterprises; and through rigorous research, we
+            surface local insights that inform every intervention. By delivering targeted capacity-building initiatives,
+            facilitating strategic partnerships, and nurturing a collaborative network of investors, entrepreneurs,
+            government bodies, and community leaders, we cultivate the fertile ground in which social enterprises can
+            flourish sustainably and at scale.
           </p>
         </div>
       </div>
