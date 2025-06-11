@@ -79,6 +79,17 @@ export const events: Event[] = [
     price: 0,
     link_registration: "https://google.com",
   },
+  {
+    id: 8,
+    thumbnail_url: "/assets/images/events/event8.webp",
+    status: "upcoming",
+    title: "Impact Talk #2",
+    description: "Understanding Green Jobs from Behavioral Perspectives",
+    location: "Google Meeting",
+    date: "June 2025",
+    price: 0,
+    link_registration: "https://google.com",
+  },
 ];
 
 // Data Opportunities

@@ -78,9 +78,9 @@ export const teams: Team[] = [
   },
   {
     id: 3,
-    photo_url: "/assets/images/teams/fikri.webp",
-    name: "Fikri Aswan",
-    title: "Partner",
+    photo_url: "/assets/images/teams/dian.webp",
+    name: "Dian Septiawati",
+    title: "Researcher",
     bg_color: "#E9DCBA",
   },
   {
@@ -106,6 +106,13 @@ export const teams: Team[] = [
   },
   {
     id: 7,
+    photo_url: "/assets/images/teams/fikri.webp",
+    name: "Fikri Aswan",
+    title: "Partner",
+    bg_color: "#E9DCBA",
+  },
+  {
+    id: 8,
     photo_url: "/assets/images/teams/abdus.webp",
     name: "Abdus Amiruddin",
     title: "Head of Business Development",
