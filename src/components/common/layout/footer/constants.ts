@@ -55,11 +55,6 @@ export const footer: Footer = {
     title: "Contact",
     data: [
       {
-        label: "+62 813 9871 2212",
-        value: "https://wa.me/6281398712212",
-        is_location: false,
-      },
-      {
         label: "hello@impactpalu.id",
         value: "mailto:hello@impactpalu.id",
         is_location: false,

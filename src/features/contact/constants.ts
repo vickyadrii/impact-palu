@@ -8,12 +8,6 @@ export const contacts: Contact[] = [
     value: "hello@impactpalu.id",
   },
   {
-    id: 2,
-    icon: "/assets/icons/ic_whatsapp.svg",
-    label: "WhatsApp",
-    value: "+62 813 9871 2212",
-  },
-  {
     id: 3,
     icon: "/assets/icons/ic_location.svg",
     label: "Our Location",

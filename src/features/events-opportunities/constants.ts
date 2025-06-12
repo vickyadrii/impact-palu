@@ -88,7 +88,7 @@ export const events: Event[] = [
     location: "Google Meeting",
     date: "June 2025",
     price: 0,
-    link_registration: "https://google.com",
+    link_registration: "https://instagram.com/impactpalu",
   },
 ];
 
