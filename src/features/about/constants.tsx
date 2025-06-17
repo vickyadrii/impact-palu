@@ -64,10 +64,10 @@ export const timelineData: TimelineElement[] = [
 export const teams: Team[] = [
   {
     id: 1,
-    photo_url: "/assets/images/teams/ayi.webp",
-    name: "Aulia Rahman",
-    title: "General Convenor",
-    bg_color: "#DACFE7",
+    photo_url: "/assets/images/teams/dian.webp",
+    name: "Dian Septiawati",
+    title: "Researcher",
+    bg_color: "#E9DCBA",
   },
   {
     id: 2,
@@ -78,17 +78,17 @@ export const teams: Team[] = [
   },
   {
     id: 3,
-    photo_url: "/assets/images/teams/dian.webp",
-    name: "Dian Septiawati",
-    title: "Researcher",
-    bg_color: "#E9DCBA",
-  },
-  {
-    id: 4,
     photo_url: "/assets/images/teams/aisyah.webp",
     name: "Aisyah Putri",
     title: "Research Associate",
     bg_color: "#E9DCBA",
+  },
+  {
+    id: 4,
+    photo_url: "/assets/images/teams/nawir.webp",
+    name: "Nawir A Lamanda",
+    title: "Research Associate",
+    bg_color: "#DACFE7",
   },
   {
     id: 5,
@@ -99,9 +99,9 @@ export const teams: Team[] = [
   },
   {
     id: 6,
-    photo_url: "/assets/images/teams/nawir.webp",
-    name: "Nawir A Lamanda",
-    title: "Research Associate",
+    photo_url: "/assets/images/teams/ayi.webp",
+    name: "Aulia Rahman",
+    title: "General Convenor",
     bg_color: "#DACFE7",
   },
   {

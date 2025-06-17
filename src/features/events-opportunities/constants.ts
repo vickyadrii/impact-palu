@@ -82,7 +82,7 @@ export const events: Event[] = [
   {
     id: 8,
     thumbnail_url: "/assets/images/events/event8.webp",
-    status: "upcoming",
+    status: "passed",
     title: "Impact Talk #2",
     description: "Understanding Green Jobs from Behavioral Perspectives",
     location: "Google Meeting",
