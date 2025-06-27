@@ -113,6 +113,13 @@ export const teams: Team[] = [
   },
   {
     id: 8,
+    photo_url: "/assets/images/teams/Jimy.webp",
+    name: "Jimy C. Gunawan",
+    title: "Head of Business Development",
+    bg_color: "#D2E3E6",
+  },
+  {
+    id: 9,
     photo_url: "/assets/images/teams/abdus.webp",
     name: "Abdus Amiruddin",
     title: "Head of Business Development",
